@@ -4,7 +4,7 @@ var compress = require('koa-compress');
 var logger = require('koa-logger');
 var serve = require('koa-static');
 var route = require('koa-route');
-var request = require('koa-request');
+//var request = require('koa-request');
 var koa = require('koa');
 var path = require('path');
 var app = module.exports = koa();
